@@ -298,7 +298,7 @@ main:
   - title: "Archives"
     url: /archives/
   - title: "GitHub"
-    url: https://github.com/yous/
+    url: https://github.com/lyusantu/
 ```
 
 ### Enabling Google Analytics
