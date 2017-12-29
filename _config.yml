@@ -3,24 +3,26 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "hello,world"
+name:               "随波逐流会轻松的吧"
 
 author:
-  facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
-  github:           your-id
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  #facebook:         your-id
+  #youtubeUser:      your-id
+  #youtubeChannel:   your-id
+  #twitter:          your-id
+  github:           https://github.com/lyusantu
+  #stackoverflow:    your-id
+  #quora:            your-id
+  #linkedin:         your-id
+  #pinterest:        your-id
+  #googlePlus:       your-id
+  #instagram:        your-id
+  #reddit:           your-id
+  #medium:           your-id
+  #tumblr:           your-id
+  qq:               352050321
+  wechat:           123456
+  email:            lyusan@gmail.com
 
 copyright:
   year:             2017
