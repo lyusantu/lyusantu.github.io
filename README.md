@@ -124,7 +124,7 @@ has to exist at your site source. Do either of the following:
 - Create a new instance of `main.scss` at site source
   - Create a new file `main.scss` at `<your-site>/assets/`
   - Add the frontmatter dashes, and
-  - Add `@import "whiteglass";`, to `<your-site>/assets/main.scss`
+  - Add `@import "";`, to `<your-site>/assets/main.scss`
   - Add your custom CSS
 - Download the file from this repo
   - Create a new file `main.scss` at `<your-site>/assets/`
