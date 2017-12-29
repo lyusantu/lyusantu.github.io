@@ -6,7 +6,7 @@
 
 Minimal, responsive Jekyll theme for hackers.
 
-![whiteglass theme](screenshot.png)
+![lyusantu](screenshot.png)
 
 ## Installation
 
@@ -43,13 +43,13 @@ gem install jekyll-whiteglass
    cd blog
    ```
 
-2. Edit `Gemfile` to use whiteglass theme:
+2. Edit `Gemfile` to use lyusantu:
 
    ``` ruby
    gem "jekyll-whiteglass"
    ```
 
-3. Edit `_config.yml` to use whiteglass theme and its plugins:
+3. Edit `_config.yml` to use lyusantu and its plugins:
 
    ``` yaml
    theme: jekyll-whiteglass
@@ -172,12 +172,12 @@ want to link to.
 
 ``` yaml
 layout: post
-title: Jekyll whiteglass theme
+title: Jekyll lyusantu
 external-url: https://github.com/lyusantu/
 ```
 
 Then the title of your post would look like a link with text
-`Jekyll whiteglass theme →`. This also applies to your blog feed.
+`Jekyll lyusantu →`. This also applies to your blog feed.
 
 ### Category
 
