@@ -1,74 +1,93 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# # # # # # # # # # # # #
+#   K i k o - p l u s   #
+# # # # # # # # # # # # #
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.author }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: lyusantu
-author: Lv yao
-description: new year, new me.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://lyusantu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-lang: en
-timezone: UTC
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-  - README.md
-  - LICENSE.txt
-  - CHANGELOG.md
-  - jekyll-whiteglass.gemspec
-  - screenshot.png
-  - vendor
+# Basic
+name:               "Kiko Plus"
 
-# Social media
-twitter_username:
-twitter_image:
-facebook_app_id:
-facebook_image:
-google_analytics:
-comments: false
+author:
+  facebook:         your-id
+  youtubeUser:      your-id
+  youtubeChannel:   your-id
+  twitter:          your-id
+  github:           your-id
+  stackoverflow:    your-id
+  quora:            your-id
+  linkedin:         your-id
+  pinterest:        your-id
+  googlePlus:       your-id
+  instagram:        your-id
+  reddit:           your-id
+  medium:           your-id
+  tumblr:           your-id
+  email:            your-id@your-email.com
 
-# Plugins
-plugins:
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-sitemap
+copyright:
+  year:             2017
+  name:             Kiko
 
-# Build settings
-markdown: kramdown
-excerpt_separator: "<!-- more -->"
+# Google-analytics
+google-analytics:
+  id:               ""
 
-# Outputting
-permalink: /:year/:month/:day/:title/
-paginate_path: /posts/:num/
-paginate: 5
+# Disqus
+disqus:
+  id:               "kiko-plus"
 
-# Markdown settings
+# URL
+url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
+# url:                "http://localhost:4000" # use this url when you develop
+baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Seoul
+permalink:          /:year-:month-:day/:title/
+
+# Pagination
+paginate:           5
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
 kramdown:
-  auto_ids: false
-  enable_coderay: false
-  entity_output: as_char
-  footnote_nr: 1
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  toc_levels: 1..6
+  input:            GFM
 
-# jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: category_archives
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+# Navigation
+nav:
+  - name:           "About"
+    url:            "/about"
+  - name:           "Archive"
+    url:            "/archive"
+  - name:           "Tags"
+    url:            "/tags"
+  - name:           "Github"
+    url:            "https://github.com/AWEEKJ/Kiko-plus"
+
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-admin
+
+exclude:            [vendor]

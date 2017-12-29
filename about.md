@@ -1,310 +1,131 @@
 ---
-layout: page
-title: "About"
+title: About
 permalink: /about/
 ---
 
-whiteglass is a minimal, responsive Jekyll theme for hackers.
+You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
+
+## Features
+
+- Disqus comment system
+- Google analytics
+- Pagination support
+- Custom tags
+- SEO support
+
 
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
+#### Method 1: new master's repository (The Best)
 
-``` ruby
-gem "jekyll-whiteglass"
+1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
+2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
+3. Access your new blog via [https://username.github.io](https://username.github.io).
+4. [See configuration](#configuration).
+
+#### Method 2: gh-pages in existing repository
+
+1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
+2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
+3. Create new branch `git checkout -b gh-pages` where _gh-pages_ will be your branch name.
+4. Add remote, which is your repo from the first step, to your new branch `git remote add gh-pages https://github.com/<yourName>/<yourMaster>/gh-pages`. _yourName_ is your account name and _yourMaster_ is your repository.
+5. Push new branch to remote `git push gh-pages`.
+6. Update `_config.yml` file by changing `baseurl: "<branchName>"` _branchName_ is your branch name where _gh-pages_ resides. See [configuration](#configuration).
+
+#### Method 3: Run it locally
+
+1. Download [zip](https://github.com/AWEEKJ/Kiko-plus/archive/master.zip) or clone it `git clone https://github.com/AWEEKJ/Kiko-plus`.
+2. Go inside folder and run `jekyll serve` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
+
+
+## Configuration
+
+All configuration is done via `_config.yml` file which you will find in your main repo folder. Change this `<something>` to yours.
+
+### Basic
+
+- Config your blog name.
+
+```yml
+name: <blog-name>
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+- These configuration in `author:` is for links to icons in footer. If you want to add more link icons, modify `_includes/footer.html` file.
 
-``` yaml
-theme: jekyll-whiteglass
+```yml
+author:
+  facebook:         your-id
+  twitter:          your-id
+  github:           your-id
+  linkedin:         your-id
+  medium:           your-id
+  tumblr:           your-id
+  email:            your-id@your-email.com
 ```
 
-And then execute:
+- Change copyright year and name in footer.
 
-``` sh
-bundle
+```yml
+copyright:
+  year:             2017
+  name:             Kiko
 ```
 
-Or install it yourself as:
+### Google analytics
 
-``` sh
-gem install jekyll-whiteglass
+- Change this to your Google Analytic ID.
+
+```yml
+google-analytics:
+  id:               "your-id"
 ```
 
-## Quick Start
+### Disqus
 
-1. Generate a new Jekyll blog:
+- Change this to your Disqus short name.
 
-   ``` sh
-   jekyll new blog --skip-bundle
-   cd blog
-   ```
-
-2. Edit `Gemfile` to use lyusantu:
-
-   ``` ruby
-   gem "jekyll-whiteglass"
-   ```
-
-3. Edit `_config.yml` to use lyusantu and its plugins:
-
-   ``` yaml
-   theme: jekyll-whiteglass
-   gems:
-     - jekyll-archives
-     - jekyll-paginate
-     - jekyll-sitemap
-
-   permalink: /:year/:month/:day/:title/
-   paginate_path: /posts/:num/
-   paginate: 5
-
-   jekyll-archives:
-     enabled:
-       - categories
-       - tags
-     layout: category_archives
-     permalinks:
-       category: /categories/:name/
-       tag: /tags/:name/
-   ```
-
-4. Copy
-   [`index.html`](https://lyusantu.github.io/blob/master/index.html),
-   [`about.md`](https://lyusantu.github.io/blob/master/about.md),
-   [`archives.md`](https://lyusantu.github.io/blob/master/archives.md),
-   [`feed.xml`](https://lyusantu.github.io/blob/master/feed.xml), and
-   [`_data/navigation.yml`](https://lyusantu.github.io/blob/master/_data/navigation.yml)
-   from the theme:
-
-   ``` sh
-   rm index.md
-   curl -L -O "https://lyusantu.github.io/raw/master/{index.html,about.md,archives.md,feed.xml}"
-   curl -L --create-dirs -o _data/navigation.yml https://lyusantu.github.io/raw/master/_data/navigation.yml
-   ```
-
-5. Install gems and you're good to go! The blog will be available on
-   `http://127.0.0.1:4000`.
-
-   ``` sh
-   bundle install
-   bundle exec jekyll serve
-   ```
-
-## Usage
-
-### Customization
-
-To override the default structure and style of whiteglass, simply create the
-concerned directory at the root of your site, copy the file you wish to
-customize to that directory, and then edit the file. e.g., to override the
-[`_includes/footer_content.html`](_includes/footer_content.html) file to add
-contents to footer, create an `_includes` directory, copy
-`_includes/footer_content.html` from jekyll-whiteglass gem folder to
-`<your-site>/_includes` and start editing that file.
-
-For example, you can add favicons to `_includes/head_custom.html`:
-
-``` html
-<link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
-<link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
-<link rel="apple-touch-icon" sizes="76x76" href="{{ "/apple-touch-icon-76x76.png" | relative_url }}">
-<link rel="apple-touch-icon" sizes="120x120" href="{{ "/apple-touch-icon-120x120.png" | relative_url }}">
-<link rel="apple-touch-icon" sizes="152x152" href="{{ "/apple-touch-icon-152x152.png" | relative_url }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon-180x180.png" | relative_url }}">
+```yml
+disqus:
+  id:               "your-id"
 ```
 
-The site's default CSS is in the gem itself,
-[`assets/main.scss`](assets/main.scss). To override the default CSS, the file
-has to exist at your site source. Do either of the following:
+### URL
 
-- Create a new instance of `main.scss` at site source
-  - Create a new file `main.scss` at `<your-site>/assets/`
-  - Add the frontmatter dashes, and
-  - Add `@import "whiteglass";`, to `<your-site>/assets/main.scss`
-  - Add your custom CSS
-- Download the file from this repo
-  - Create a new file `main.scss` at `<your-site>/assets/`
-  - Copy the contents at [`assets/main.scss`](assets/main.scss) onto the `main.scss` you just created, and edit away
-- Copy directly from jekyll-whiteglass gem
-  - Go to your local jekyll-whiteglass gem installation directory (run `bundle show jekyll-whiteglass` to get the path to it)
-  - Copy the `assets/` folder from there into the root of `<your-site>`
-  - Change whatever values you want, inside `<your-site>/assets/main.scss`
+- Config your domain.
 
-### Locale
-
-`site.lang` is used to declare the primary language for each web page within the
-site.
-
-`lang: en-US` sets the `lang` attribute for the site to the United States flavor
-of English, while `en-GB` would be for the United Kingdom style of English.
-Country codes are optional and the shorter variation `lang: en` is also
-acceptable. You may want to write a post in different language, then add `lang`
-attribute to the frontmatter of that post:
-
-``` yaml
-layout: post
-title: "안녕하세요"
-lang: ko
+```yml
+url: "https://<your-name>.github.io"
 ```
 
-### Description
+- **NOTE** When if running locally, change url to 
 
-`site.description` describes the site. This is mainly used in meta descriptions
-for improving SEO. Also, you can set `description` attribute for each post:
-
-``` yaml
-layout: post
-title: Awesome Post
-description: This is an awesome post.
+```yml
+url: "https://localhost:4000"
 ```
 
-If you don't specify `post.description`, then `post.excerpt` will be used if it
-exist.
+- Change this to your branch name where _gh-pages_ resides. 
+- **NOTE** apply only if you used __Method 2__ for installation.
 
-### External URL
-
-`external-url` turns the title of your post to a link. Specify a URL which you
-want to link to.
-
-``` yaml
-layout: post
-title: Jekyll lyusantu
-external-url: https://github.com/lyusantu/lyusantu.github.io
+```yml
+baseurl: "/<branch-name>"
 ```
 
-Then the title of your post would look like a link with text
-`Jekyll lyusantu →`. This also applies to your blog feed.
+## Rakefile Usage
 
-### Category
+```bash
+# Create new post
+$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
 
-Each post can have `categories` attribute. It can be a string or an array. This
-will be displayed on index, archive and each post, and provide a link to the
-archive of category.
+# Create new draft post
+$ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
 
-``` yaml
-layout: post
-title: Awesome Post
-categories: Misc
+# Install Jekyll Plugins. Do before running in local.
+$ rake geminstall
+
+# Run in Local
+$ rake preview
 ```
 
-``` yaml
-layout: post
-title: Another Awesome Post
-categories:
-  - Misc
-  - Idea
-```
+## License
 
-### Tag
-
-Each post can have `tags` attribute. It can be a string or an array. This will
-be displayed on index, archive and each post, and provide a link to the archive
-of tag.
-
-``` yaml
-layout: post
-title: Awesome Post
-tags: food
-```
-
-``` yaml
-layout: post
-title: Another Awesome Post
-tags:
-  - food
-  - trip
-```
-
-### Feed
-
-Create `<your-site>/feed.xml` with:
-
-``` yaml
----
-layout: feed
----
-```
-
-If you want to use another path for feed, you can specify a non-default path via
-your site's config.
-
-``` yaml
-feed:
-  path: atom.xml
-```
-
-Then create `<your-site>/atom.xml` with the same content of `feed.xml` above.
-
-### Comments
-
-whiteglass provides the ability to include your favourite commenting service, like [Disqus](https://disqus.com) or [Isso](https://posativ.org/isso).
-
-To enable comments on pages and posts:
-1. Overwrite the `_includes/custom_comments_provider.html` with your custom provider of comments.
-2. Add `comments: true` to your `_config.yml`.
-
-To disable comments on certain pages or posts specify `comments: false` in the front matter of the page or post.
-
-### Metadata for SEO
-
-#### Keywords
-
-Each post can have `keywords` attribute. This is a comma-separated list which is
-used in meta descriptions for improving SEO.
-
-``` yaml
-layout: post
-title: How to configure jekyll-whiteglass
-keywords: jekyll, whiteglass, github pages
-```
-
-YAML list is also available:
-
-``` yaml
-keywords:
-  - jekyll
-  - whiteglass
-  - github pages
-```
-
-#### Twitter
-
-- `site.twitter_username` sets `twitter:site` and `twitter:creator` meta tag
-- `site.twitter_image` sets `twitter:image:src` meta tag
-- `page.twitter_card.type` sets `twitter:card` meta tag (default: `summary`)
-  - If `page.twitter_card.type` is `gallery`, it sets `twitter:image0`, `twitter:image1`, `twitter:image2` and `twitter:image3` meta tags with `page.twitter_card.image`, `page.twitter_card.image1`, `page.twitter_card.image2` and `page.twitter_card.image3`, respectively
-  - If `page.twitter_card.type` is `photo`, `page.twitter_card.width` sets `twitter:image:width` meta tag and `page.twitter_card.height` sets `twitter:image:height` meta tag
-- `page.twitter_card.creator` sets `twitter:creator` meta tag. It overrides `site.twitter_username`
-- `page.twitter_card.image` sets `twitter:image:src` meta tag if `page.twitter_card.type` is not `gallery`. It overrides `site.twitter_image`
-
-#### Facebook
-
-- `site.facebook_app_id` sets `fb:admins` meta tag
-- `site.facebook_page` sets `article:author` meta tag
-- `site.facebook_image` sets `og:image` meta tag
-- `page.facebook.image` sets `og:image` meta tag. It overrides `site.facebook_image`
-
-### Navigation
-
-To define header links, add titles and URLs under the `main` key in
-`_data/navigation.yml`:
-
-``` yaml
-main:
-  - title: "About"
-    url: /about/
-  - title: "Archives"
-    url: /archives/
-  - title: "GitHub"
-    url: https://github.com/lyusantu/
-```
-
-### Enabling Google Analytics
-
-To enable Google Analytics, add the following lines to your Jekyll site:
-
-``` yaml
-google_analytics: UA-NNNNNNNN-N
-```
+This theme is released under MIT License.
