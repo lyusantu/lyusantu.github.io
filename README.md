@@ -314,7 +314,7 @@ google_analytics: UA-NNNNNNNN-N
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-<https://github.com/yous/whiteglass>. This project is intended to be a safe,
+<https://github.com/lyusantu>. This project is intended to be a safe,
 welcoming space for collaboration, and contributors are expected to adhere to
 the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
