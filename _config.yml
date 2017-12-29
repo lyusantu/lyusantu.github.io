@@ -1,43 +1,31 @@
-markdown: rdiscount
-highlighter: pygments
-permalink: /:year/:month/:day/:title.html
-name: "us&#39;"
-markdown: rdiscount
-rdiscount:
-    extensions:
-      - generate_toc
-      - footnotes
-      - smart 
-    toc_token: "@TOC"
+# Permalinks
+permalink:      /:year-:month-:day/:title
 
-author: "lao&#39; ji"
-atom-baseurl: "http://blog.zxfamily.site"
-disqus: "gopherwood"
+# Setup
+title:          Tale
+paginate:       5
+baseurl:        "/tale"
+url:            "https://chesterhow.github.io"
 
-excerpt_separator: "<!--more-->"
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
 
+# Build settings
+markdown:       kramdown
 
+# About
+author:
+  name:         Chester How
+  url:          http://chester.how
+  email:        chesterhow@gmail.com
 
-navigations:
-  - title: Archive
-    class: fa fa-list-ul
-    href: /jekyll-blog-template/archive.html
-  - title: Tags
-    class: fa fa-tags
-    href: /jekyll-blog-template/tags.html
-  - title: About
-    class: fa fa-user
-    href: /jekyll-blog-template/about.html
-  - title: Subscribe
-    class: fa fa-rss
-    href: /jekyll-blog-template/atom.xml
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/chesterhow/tale
 
-#social
-qq: "http://wpa.qq.com/msgrd?v=3&uin=331660522&site=qq&menu=yes"
-weibo: "http://blog.zxfamily.site"
-wechat: "微信号:elephant_crossing"
-linkedin: "https://www.linkedin.com/in/%E9%9C%87%E5%AE%87-%E5%AD%A3-824622b4/"
-github: "https://github.com/Zuofan"
-
-
-siteurl: "https://zuofan.github.io/jekyll-blog-template/"
+# Gems
+plugins:
+  - jekyll-paginate
