@@ -171,7 +171,7 @@ want to link to.
 ``` yaml
 layout: post
 title: Jekyll whiteglass theme
-external-url: https://github.com/yous/whiteglass
+external-url: https://github.com/lyusantu/lyusantu.github.io
 ```
 
 Then the title of your post would look like a link with text
