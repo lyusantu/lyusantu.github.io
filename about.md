@@ -298,7 +298,7 @@ main:
   - title: "Archives"
     url: /archives/
   - title: "GitHub"
-    url: https://github.com/yous/whiteglass
+    url: https://github.com/yous/
 ```
 
 ### Enabling Google Analytics

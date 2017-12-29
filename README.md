@@ -173,7 +173,7 @@ want to link to.
 ``` yaml
 layout: post
 title: Jekyll whiteglass theme
-external-url: https://github.com/yous/whiteglass
+external-url: https://github.com/yous/
 ```
 
 Then the title of your post would look like a link with text
@@ -300,7 +300,7 @@ main:
   - title: "Archives"
     url: /archives/
   - title: "GitHub"
-    url: https://github.com/yous/whiteglass
+    url: https://github.com/yous/
 ```
 
 ### Enabling Google Analytics
