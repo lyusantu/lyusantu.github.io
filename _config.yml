@@ -51,7 +51,7 @@ paginate:           5
 paginate_path:      /page:num/
 
 # Markdown
-markdown:           redcarpet
+markdown:           Kramdown
 kramdown:
   input:            GFM
 
@@ -64,7 +64,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/AWEEKJ/"
+    url:            "https://github.com/lyusantu/"
 
 # Sass
 sass:
