@@ -23,7 +23,7 @@ share: true
 
 GitHub是一个面向开源及私有软件项目的托管平台,  因为只支持git作为唯一的版本库格式进行托管, 故名gitHub. 通俗点来说,我们可以把我们想要存储的文件都放到Github中,同时我们也可以将我们存储到Github中的文件进行共享.
 
-##　了解Github Pages
+## 了解Github Pages
 
 Github Pages的初衷是为了给开发者提供一个私人页面,可以用做个人主页,进行介绍或分享自己的idea,听起来很无私,所以这就是我选择Github Pages的理由咯. 其实还是因为免费且没有流量限制 <del> (穷) </del>..
 
