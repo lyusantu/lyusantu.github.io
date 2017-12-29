@@ -8,7 +8,9 @@ comments: true
 share: true
 ---
 
-![](https://www.flickr.com/photos/lhzhang/23999442826/in/dateposted-public/)
+hi,
+
+![](/images/ragnarok.jpg)
 
 - [ ] 支持以 PDF 格式导出文稿
 - [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
