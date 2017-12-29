@@ -51,7 +51,7 @@ paginate:           5
 paginate_path:      /page:num/
 
 # Markdown
-markdown:           kramdown
+markdown:           redcarpet
 kramdown:
   input:            GFM
 
