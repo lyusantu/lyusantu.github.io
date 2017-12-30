@@ -8,9 +8,6 @@ comments: true
 share: true
 ---
 
-![](/images/ragnarok.jpg)
-
-
 ## 前言
 
 之前的博客折腾了许久,现在比较渴望一种简单快捷的方式.
@@ -31,6 +28,23 @@ Github Pages的初衷是为了给开发者提供一个私人页面,可以用做�
 
 首先没有账户的话可以先进行账户的注册,有账户的可以跳过这一步
 
-### 注册Github账户
+#### 注册Github账户
 
 打开Github官网 [https://github.com/](https://github.com/), 注册一个账户
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20171230205340.jpg)
+
+如上图,红框内`username`对应你的昵称,`Email`和`Password`则作为你的登录账户,填写完毕并在无重复情况下点击绿色按钮`Sign up for Github`就可以进入到下一步.
+
+![](http://oih7sazbd.bkt.clouddn.com/STEP2.jpg)
+
+如上图,如果没有特别的需要,直接点击下方绿色按钮`Continue`继续操作.
+
+![](http://oih7sazbd.bkt.clouddn.com/step3.jpg)
+
+如上图,进入到了一个类似于问卷调查的页面,可以选择填写并点击下方绿色按钮`Submit`进行提交,或直接点击下方绿色按钮`submit`旁的`skip this step`跳过这一步骤.
+
+接下来,需要激活我们的账户才可以操作我们的`Github`. 进入到注册账户时在第一个页面输入的邮箱收件箱里,打开`Github`发送来的邮件,点击邮件内容中的`Verify email address`进行邮箱的验证,验证成功后,就可以正式进入我们的主题.
+
+#### 创建仓库
+ 
