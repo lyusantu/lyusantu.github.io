@@ -79,3 +79,51 @@ Github Pages的初衷是为了给开发者提供一个私人页面,可以用做�
 ![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102171150.png)
 
 如上图,我们可以通过访问`用户名.github.io`预览页面,确定可以显示出页面后,就可以正式进入主题,进行我们的博客搭建.
+
+## 工具安装
+
+接下来,就需要用到我们的工具了. 此处以`windows`系统举例,首先在[https://desktop.github.com/](https://desktop.github.com/)下载`github`桌面版,下载成功后自行安装.
+
+打开`github desktop`应用程序,登录你的`github`账户,就可以继续我们接下来的步骤.
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102172524.png)
+
+如上图,登录成功后,我们点击左上角的`File`,在下拉框中选择`Clone repository`来进行仓库的克隆.
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102172612.png)
+
+如上图,点击`Clone repository`会打开当前窗口,我们需要点击我们需要克隆的项目,然后在下方第二个红框内选择要克隆到哪里,成功选择目录后,点击下面的蓝色按钮`Clone`进行仓库的克隆,然后等待克隆完成即可.
+
+## 选择主题
+
+在仓库克隆的这个阶段,我们就可以选择我们的博客风格.前段技术良好可以考虑自己参与主题的建设,前端技术不怎么在行,则不建议主题更换的太频繁,我们可以进入到`jekyll`主题选择界面进行选择喜欢的主题:
+
+[http://jekyllthemes.org/](http://jekyllthemes.org/)
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102173346.png)
+
+如上图,这是网站一开始进来的页面,我们就以红框内标注的第一套模板作为案例,点击进入这套模板
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102173411.png)
+
+如上图,这是模板点击进来的页面,我们直接点击图中红框标注的`download`按钮进行主题的下载即可.
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102174020.png)
+
+如上图,进入之前我们克隆的仓库的文件夹,将仓库内的所有文件全部删除(除了隐藏文件夹`.git`),然后把下载出来的主题压缩包进行解压,将解压出来的文件夹内的所有文件,全部剪切到我们的仓库里.
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102174203.png)
+
+如上图,简单介绍一下整个主题的结构.
+- includes: 这个文件夹里的内容作为一种通用的内容会应用到博客的每一个页面.
+- layouts: 存放每个页面的设计,一般包含default.html和posts.html.
+- posts: 存储博文,语法统一采用`markdown`.
+- config.xml: 博客的基本配置信息,包含博客名称、博主基本信息等.
+
+## 博客的上传
+
+ 完成上面的步骤,我们的博客基本已经配置完毕,只需要根据个人需要修改对应的内容即可. 如果需要编写自己的博文,则创建`.md`文件并以`markdown`语法编辑并保存到`_posts`目录下即可. 想要同步到`github`上,就需要用到我们的`github desktop`应用程序了.
+
+ ![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102174839.png)
+
+ 如上图,在更新过我们的仓库文件后,打开`github desktop`,会发现左侧的`Changes`栏目下多了一些内容,包含几个文件进行了更改并展示出了这些文件,点击这些文件,则可以在右侧看到更改的内容. 想要将这些变动提交到`github`中,我们只需要在左侧的下面输入`Summary`描述后,点击蓝色按钮`Commit to master`即可提交我们的更改.
