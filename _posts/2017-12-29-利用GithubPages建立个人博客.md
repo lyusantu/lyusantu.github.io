@@ -26,9 +26,9 @@ Github Pages的初衷是为了给开发者提供一个私人页面,可以用做�
 
 ## 使用Github
 
-首先没有账户的话可以先进行账户的注册,有账户的可以跳过这一步
+首先没有账户的话可以先进行账户的注册,有账户的可以跳过`注册Github账户`这一步
 
-#### 注册Github账户
+## 注册Github账户
 
 打开Github官网 [https://github.com/](https://github.com/), 注册一个账户
 
@@ -46,5 +46,36 @@ Github Pages的初衷是为了给开发者提供一个私人页面,可以用做�
 
 接下来,需要激活我们的账户才可以操作我们的`Github`. 进入到注册账户时在第一个页面输入的邮箱收件箱里,打开`Github`发送来的邮件,点击邮件内容中的`Verify email address`进行邮箱的验证,验证成功后,就可以正式进入我们的主题.
 
-#### 创建仓库
- 
+## 创建仓库
+
+进入创建仓库的页面 [https://github.com/new](https://github.com/new),这个仓库将作为我们存放博客内容的地方.
+
+![](http://oih7sazbd.bkt.clouddn.com/createrepo.png)
+
+如上图,这是我们用来创建仓库的页面. 需要注意的地方就是`Repository name`这一栏以及下面的选择框`Initialize this repository with a READEME`,其它选项都是可选的,可根据个人需要进行选择,此处不做介绍. `Repository name`这一栏是有格式要求的,不能乱取名,格式应为`用户名.github.io`,此处我们取名为`none168.github.io`,同时我们需要勾选`Initialize this repository with a READEME`这一栏,完成后点击下面的绿色按钮`Create repository`就成功创建了仓库,创建成功后会直接进入仓库页面.
+
+## 设置仓库
+
+![](http://oih7sazbd.bkt.clouddn.com/settings.png)
+
+如上图,这是我们创建好的仓库页面. 我们需要设置我们的`Github Pages`,点击图中红框标记的`settings`进入设置页面.
+
+![](http://oih7sazbd.bkt.clouddn.com/gitpages.png)
+
+如上图,进入设置页面后,将页面向下拖动至`Github Pages`选项,然后点击图中红框标注的按钮`Choose a theme`进入选择主题页面.
+
+![](http://oih7sazbd.bkt.clouddn.com/selecttheme.png)
+
+如上图,这是选择主题的默认页面,因为等下需要进行页面的选取,所以在此处直接点击图片红框标记的按钮`Select theme`选择这个默认主题即可.
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102170605.png)
+
+如上图,选择主题成功后,顶部会提示主题已设置为`XX`,同时下面会出现两个需要我们填写的文件,分别是标题及内容,此处默认即可,直接点击下方红框内标注的绿色按钮`Commit changes`进行提交即可.
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102170803.png)
+
+如上图,此时会发现比刚创建成功的仓库多了一个`_config.yml`的配置文件,这个时候,我们的页面就已经成型了.
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102171150.png)
+
+如上图,我们可以通过访问`用户名.github.io`预览页面,确定可以显示出页面后,就可以正式进入主题,进行我们的博客搭建.
