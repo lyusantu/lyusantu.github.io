@@ -126,4 +126,4 @@ Github Pages的初衷是为了给开发者提供一个私人页面,可以用做�
 
  ![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102174839.png)
 
- 如上图,在更新过我们的仓库文件后,打开`github desktop`,会发现左侧的`Changes`栏目下多了一些内容,包含几个文件进行了更改并展示出了这些文件,点击这些文件,则可以在右侧看到更改的内容. 想要将这些变动提交到`github`中,我们只需要在左侧的下面输入`Summary`描述后,点击蓝色按钮`Commit to master`即可提交我们的更改.
+ 如上图,在更新过我们的仓库文件后,打开`github desktop`,会发现左侧的`Changes`栏目下多了一些内容,包含几个文件进行了更改并展示出了这些文件,点击这些文件,则可以在右侧看到更改的内容. 想要将这些变动提交到`github`中,我们只需要在左侧的下面输入`Summary`描述后,点击蓝色按钮`Commit to master`即可提交我们的更改,提交成功后,点击顶部的`Fetch origin`进行`push`即可将我们的更改同步至`github`中.
