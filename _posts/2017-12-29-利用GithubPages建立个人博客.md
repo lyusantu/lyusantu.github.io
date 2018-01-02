@@ -122,10 +122,24 @@ Github Pages的初衷是为了给开发者提供一个私人页面,可以用做�
 
 ## 博客的上传
 
- 完成上面的步骤,我们的博客基本已经配置完毕,只需要根据个人需要修改对应的内容即可. 如果需要编写自己的博文,则创建`.md`文件并以`markdown`语法编辑并保存到`_posts`目录下即可. 想要同步到`github`上,就需要用到我们的`github desktop`应用程序了.
+ 完成上面的步骤,我们的博客基本已经配置完毕,只需要根据个人需要修改对应的内容即可. 如果需要编写自己的博文,则创建`.md`文件并以`markdown`语法编辑并保存到`_posts`目录下即可. 想要同步到`Github`上,就需要用到我们的`github desktop`应用程序了.
 
  ![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102174839.png)
 
- 如上图,在更新过我们的仓库文件后,打开`github desktop`,会发现左侧的`Changes`栏目下多了一些内容,包含几个文件进行了更改并展示出了这些文件,点击这些文件,则可以在右侧看到更改的内容. 想要将这些变动提交到`github`中,我们只需要在左侧的下面输入`Summary`描述后,点击蓝色按钮`Commit to master`即可提交我们的更改,提交成功后,点击顶部的`Fetch origin`进行`push`即可将我们的更改同步至`github`中.
+ 如上图,在更新过我们的仓库文件后,打开`github desktop`,会发现左侧的`Changes`栏目下多了一些内容,包含几个文件进行了更改并展示出了这些文件,点击这些文件,则可以在右侧看到更改的内容.
 
- ## END
+ ![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102175455.png)
+
+ 如上图,想要将这些变动提交到`Github`中,我们只需要在左侧的下面的头像旁的输入框内输入描述后,点击蓝色按钮`Commit to master`即可提交我们的更改.
+
+![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102175505.png)
+
+如上图,提交成功后,顶部的`Push origin`右侧会出现数字,提示我们提交成功了几个文件,这时,我们需要点击`Push origin`进行`push`即可将我们的更改同步至`Github`中.
+
+## END
+
+到这一步,使用`Github Pages`搭建博客的教程已经完成.
+
+等待几分钟,就可以打开我们的仓库地址,此处以我的为例: [http://lyusantu.github.io/](http://lyusantu.github.io/)
+
+如果成功显示,之后再次进行文章的编辑或新建时,只需要在_posts文件夹内创建并编写,然后通过`github desktop`进行同步即可.
