@@ -3,7 +3,7 @@ layout: post
 title: "Spring Boot快速入门"
 description: "来和我一起学习使用Spring Boot,一起构建简单快捷的Spring应用！"
 date: 2018-1-4
-tags: [Spring Boot, Java, Web, Maven]
+tags: [Spring Boot]
 comments: true
 share: true
 ---
