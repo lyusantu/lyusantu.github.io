@@ -1,6 +1,6 @@
 ---
 title: 利用Github Pages建立个人博客
-date: 2013-05-06
+date: 2017-05-20 05:20:00
 ---
 
 ## 前言
@@ -138,11 +138,3 @@ Github Pages的初衷是为了给开发者提供一个私人页面,可以用做�
 等待几分钟,就可以打开我们的仓库地址,此处以我的为例: [http://lyusantu.github.io/](http://lyusantu.github.io/)
 
 如果成功显示,之后再次进行文章的编辑或新建时,只需要在_posts文件夹内创建并编写,然后通过`github desktop`进行同步即可.
-
-```html
-<dialog>
-  <header>Headsup</header>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-  <button type="button" class="js-close-dialog">Close</button>
-</dialog>
-```
