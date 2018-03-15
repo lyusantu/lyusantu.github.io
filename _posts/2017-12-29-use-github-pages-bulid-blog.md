@@ -1,11 +1,6 @@
 ---
-layout: post
-title: "利用Github Pages建立个人博客"
-description: "build your own blog, don't need buy domain, don't need buy space."
-date: 2017-12-29
-tags: [github Pages, jekyll, blog]
-comments: true
-share: true
+title: 利用Github Pages建立个人博客
+date: 2013-05-06
 ---
 
 ## 前言
