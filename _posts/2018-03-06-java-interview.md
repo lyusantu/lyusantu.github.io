@@ -1,11 +1,6 @@
 ---
-layout: post
-title: "Java面试知识问题总结"
-description: ""
-date: 2018-3-6
-tags: [Java]
-comments: true
-share: true
+title: Java面试知识问题总结
+date: 2018-03-06 05:03:02
 ---
 
 ## 前言
