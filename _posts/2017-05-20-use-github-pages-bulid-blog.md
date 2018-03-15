@@ -110,10 +110,10 @@ Github Pages的初衷是为了给开发者提供一个私人页面,可以用做�
 ![](http://oih7sazbd.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180102174203.png)
 
 如上图,简单介绍一下整个主题的结构.
-- includes: 这个文件夹里的内容作为一种通用的内容会应用到博客的每一个页面.
-- layouts: 存放每个页面的设计,一般包含default.html和posts.html.
-- posts: 存储博文,语法统一采用`markdown`.
-- config.xml: 博客的基本配置信息,包含博客名称、博主基本信息等.
+> includes: 这个文件夹里的内容作为一种通用的内容会应用到博客的每一个页面.
+> layouts: 存放每个页面的设计,一般包含default.html和posts.html.
+> posts: 存储博文,语法统一采用`markdown`.
+> config.xml: 博客的基本配置信息,包含博客名称、博主基本信息等.
 
 ## 博客的上传
 
