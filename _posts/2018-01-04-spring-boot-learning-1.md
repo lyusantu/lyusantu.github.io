@@ -1,11 +1,6 @@
 ---
-layout: post
-title: "Spring Boot快速入门"
-description: "来和我一起学习使用Spring Boot，一起构建简单快捷的Spring应用！"
-date: 2018-1-4
-tags: [Spring Boot]
-comments: true
-share: true
+title: Spring Boot快速入门
+date: 2018-1-4 08:54:20
 ---
 
 ## 简介
@@ -13,10 +8,14 @@ share: true
 `Spring Boot`让`Spring`应用变的更轻量化。让我们可以仅靠一个`Java`类来运行一个`Spring`应用，也可以打包应用为jar包后通过`java -jar`命令来运行这个`Spring Web`应用。
 
 `Spring Boot`的主要优点：
-- 为所有`Spring`开发者更快的入门
-- 开箱即用，提供各种默认配置来简化项目配置
-- 内嵌式容器简化Web项目
-- 没有冗余代码生成和对XML配置的要求
+
+1. 为所有`Spring`开发者更快的入门
+
+2. 开箱即用，提供各种默认配置来简化项目配置
+
+3.  内嵌式容器简化Web项目
+
+4. 没有冗余代码生成和对XML配置的要求
 
 ## 快速入门
 
@@ -39,7 +38,9 @@ share: true
 3. 点击绿色按钮`Generate Project`下载生成的项目的压缩包。
 
 4. 以 [IDEA](https://www.jetbrains.com/idea/) 为例，我们需要导入解压后的项目压缩包：
+
 > 菜单中按照如下顺序操作: File -> New -> Project from Existing Sources -> 选择解压后的压缩包
+
 > 在弹出的第一个框内选择 import project form external model，并在下方选择maven，然后一路next直到最后一个页面点击finish.
 
 ### 使用IDEA自带的Spring Initializr来构建Spring Boot工程
@@ -65,9 +66,9 @@ share: true
 
 之前的步骤，已经使我们完成了项目的基本构建. 如上图所示，`Spring Boot`的基础结构供三个文件:
 
-- `Chapter1Application`     : 位于`src/main/java`下的程序入口
-- `application.properties`  : 位于`src/main/resources`下的配置文件
-- `Chapter1ApplicationTests`: 位于`src/test`下的测试入口
+1. `Chapter1Application`     : 位于`src/main/java`下的程序入口
+2. `application.properties`  : 位于`src/main/resources`下的配置文件
+3. `Chapter1ApplicationTests`: 位于`src/test`下的测试入口
 
 由生成程序生成的`Chapter1Application`和`Chapter1ApplicationTests`类都可以直接运行来启动当前创建的项目. 由于当前项目没有配备任何数据访问或`Web`模块，所以程序会在加载完`Spring`之后结束运行。
 
@@ -75,8 +76,8 @@ share: true
 
 打开项目的`pom.xml`，会发现`dependencies`下只引入了两个模块:
 
-- `spring-boot-starter` : 核心模块，包括自动配置支持、日志和`YAML`
-- `spring-boot-starter-test` : 测试模块，包括`JUnit`、`Hamcrest`、`Mockito`
+1. `spring-boot-starter` : 核心模块，包括自动配置支持、日志和`YAML`
+2. `spring-boot-starter-test` : 测试模块，包括`JUnit`、`Hamcrest`、`Mockito`
 
 ```xml
 <dependencies>
