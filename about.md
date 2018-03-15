@@ -4,7 +4,7 @@ title: About me
 
 姓名：吕垚
 
-Blog：[lyusantu.github.com](lyusantu.github.com)
+Blog：[lyusantu.github.com](https://lyusantu.github.io)
 
 Github：[https://github.com/lyusantu](https://github.com/lyusantu)
 
@@ -15,4 +15,4 @@ Github：[https://github.com/lyusantu](https://github.com/lyusantu)
 期望城市：深圳
 
 
-Find me on [Email](mailto:lyusantu@gmail.com) or <a href="https://lyusantu.github.io/images/wechat.jpg" target="_blank">WeChat</a>
+Find me on <a href="mailto:lyusantu@gmail.com" target="_blank">Email</a>[](mailto:) or <a href="https://lyusantu.github.io/images/wechat.jpg" target="_blank">WeChat</a>
