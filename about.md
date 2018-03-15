@@ -1,21 +1,9 @@
 ---
-title: About
-permalink: /about/
+title: About me
 ---
 
-## 个人信息
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend.
 
-- Blog：[lyusantu.github.com](lyusantu.github.com)
-- Github：[https://github.com/lyusantu](https://github.com/lyusantu)
-- 期望职位：Java开发工程师
-- 期望薪资：税前12 ~ 17k（西安或特别喜欢的公司可例外）
-- 期望城市：深圳
+Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi.
 
----
-
-## 联系方式
-
-- Email：[lyusantu@gmail.com](mailto:lyusantu@gmail.com)
-- WeChat：lyusantu
-
----
+Find me on [GitHub](https://github.com/muan) or [Twitter](https://twitter.com/muanchiou).

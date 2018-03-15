@@ -1,5 +1,3 @@
-_site
+_site/
 .sass-cache
-Gemfile.lock
-_drafts
-.jsbeautifyrc 
+.ruby-version
