@@ -1,6 +1,7 @@
+---
 title: Java动态代理浅析
 date: 2017/06/08
-----
+---
 
 最近在公司看到了mybatis与spring整合中MapperScannerConfigurer的使用，该类通过反向代理自动生成基于接口的动态代理类。
 

@@ -1,7 +1,7 @@
----------
+---
 title: 安装Python
 date: 2017-11-28 16:53:44
-----------
+---
 
 Python是跨平台的，可运行在Windows、Mac和各种Linux/Unix系统上。
 

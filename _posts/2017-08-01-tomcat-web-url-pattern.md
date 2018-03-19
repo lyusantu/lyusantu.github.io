@@ -1,7 +1,8 @@
-----------
+---
 title: Servlet容器Tomcat中web.xml中url-pattern的配置详解[附带源码分析]
 date: 2017-08-01
-----------
+---
+
 ## 前言
 今天研究了一下tomcat上web.xml配置文件中url-pattern的问题。
 
