@@ -1,11 +1,7 @@
+---
 title: Redis简介-安装-入门
 date: 2017/06/06
-comments: true 
-tags:
- - Redis
-categories: Cache
-
-----
+---
 
 ## 前言
 我们team马上要用Redis了。 leader要求学习一下这东西。

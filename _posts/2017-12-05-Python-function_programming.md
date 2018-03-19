@@ -1,4 +1,5 @@
-title: Python函数
+---------
+title: Python函数式编程
 date: 2017-12-5
 ----------
 

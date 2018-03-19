@@ -1,9 +1,6 @@
+----------
 title: Python基础
 date: 2017-11-29 10:41:09
-comments: true
-tags: 
- - Python
-categories: Python
 ----------
 
 ## Python基础
