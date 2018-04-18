@@ -1,6 +1,3 @@
----
-title: Resume
----
 
 # 联系方式
 
@@ -15,7 +12,7 @@ title: Resume
  - 本科 / 西京学院 / 计算机科学与技术
  - 工作年限：3年
  - 期望职位：Java开发工程师
- - 期望薪资：税前月薪12k~15k
+ - 期望薪资：12k ~ 15k
  - 期望城市：深圳
  - 博客：[https://lyusantu.github.io/](https://lyusantu.github.io/)
  - Github：[https://github.com/lyusantu](https://github.com/lyusantu)
@@ -23,7 +20,7 @@ title: Resume
 
 # 工作经历
 
-## 深圳市华亿教育科技有限公司 （ 2017年3月 ~ 2018年4月 ）
+## 深圳市华亿教育科技有限公司 （ 2017年3月 ~ 至今 ）
 
 ### 菁菁教育管理系统 
 此项目是基于Spring Cloud的微服务架构，采用Spring Boot作为容器，Spring MVC作为服务发布，Zuul作为服务网关，Eureka作为服务注册中心，Feign作为服务调用，Spring Cloud Config做为服务集群配置中心，Spring作为基础服务框架，不走配置文件，统一使用注解进行开发。数据库采用MySQL，数据库持久层框架采用MyBatis-Plus，MySQL数据库同步中间件使用Otter+Canal，解决各个模块之间的数据冗余。缓存采用Redis，登录效验采用Web JWT做Restful API的无状态鉴权，替代了Session。选用XXL-JOB作为分布式定时任务框架，SLF4J作为日志框架。
@@ -59,11 +56,11 @@ title: Resume
 以下清单内包含了我熟练及了解(至少使用过)的技能
 
 - Web开发：Java
-- Web框架：Spring/Struts/Hibernate/MyBatis/JFinal/Spring Boot/Spring Cloud
-- 前端框架：Layui/Bootstrap/HTML5
-- 数据库相关：MySQL/Oracle/SQL Server
-- 版本管理、文档和自动化部署工具：SVN/Git/
-- 单元测试：Junit/Swagger2
+- Web框架：Spring / Struts / Hibernate / MyBatis / JFinal / Spring Boot /Spring Cloud
+- 前端框架：Layui / Bootstrap / HTML5
+- 数据库相关：MySQL / Oracle / SQL Server
+- 版本管理、文档和自动化部署工具：SVN / Git /
+- 单元测试：Junit / Swagger2
 - 云和开放平台：微信应用开发
       
 
@@ -73,6 +70,8 @@ title: Resume
 - 具备良好的人际交往能力，沟通能力及团队协作能力
 - 为人乐观，具备上进心，对新事物有较强的认知及吸收能力
 - 工作上手快、效率高，希望工作具备一定的难度或压力
+
 ---      
 # 致谢
+
 感谢您花时间阅读我的简历，期待能有机会和您共事 :)
