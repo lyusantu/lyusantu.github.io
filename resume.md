@@ -8,19 +8,6 @@ title: Resume
 - Email：<a href="mailto:lyusantu@gmail.com" target="_blank">lyusantu@gmail.com</a>
 - Wechat：<a href="https://lyusantu.github.io/images/wechat.jpg" target="_blank">lyusantu</a>
 
-
-# 个人信息
-
- - 吕垚 / 男 / 23 
- - 本科 / 西京学院 / 计算机科学与技术
- - 工作年限：3年
- - 期望职位：Java开发工程师
- - 期望薪资：12k ~ 15k
- - 期望城市：深圳
- - 博客：[https://lyusantu.github.io/](https://lyusantu.github.io/)
- - Github：[https://github.com/lyusantu](https://github.com/lyusantu)
-
-
 # 工作经历
 
 ## 深圳市华亿教育科技有限公司 （ 2017年3月 ~ 至今 ）
