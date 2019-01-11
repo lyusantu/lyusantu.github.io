@@ -2,8 +2,6 @@
 title: About me
 ---
 
-姓名：吕垚
-
 Blog：[lyusantu.github.com](https://lyusantu.github.io)
 
 Github：[https://github.com/lyusantu](https://github.com/lyusantu)
