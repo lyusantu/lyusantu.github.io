@@ -159,28 +159,29 @@ public class PayController {
 响应数据
 
 ```xml
-<xml><return_code><![CDATA[SUCCESS]]></return_code>
-<return_msg><![CDATA[OK]]></return_msg>
-<result_code><![CDATA[SUCCESS]]></result_code>
-<mch_id><![CDATA[1111111111]]></mch_id>
-<appid><![CDATA[wx5232bc0bf666666b]]></appid>
-<nonce_str><![CDATA[0yPYJCvl5MdkAbnS]]></nonce_str>
-<sign><![CDATA[ABAB14611803DSFBV39DF345F4E17DAB]]></sign>
-<prepay_id><![CDATA[wx02155756166818b065abc6tr60a5fd0000]]></prepay_id>
-<trade_type><![CDATA[APP]]></trade_type>
+<xml>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <return_msg><![CDATA[OK]]></return_msg>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <mch_id><![CDATA[1111111111]]></mch_id>
+  <appid><![CDATA[wx5232bc0bf666666b]]></appid>
+  <nonce_str><![CDATA[0yPYJCvl5MdkAbnS]]></nonce_str>
+  <sign><![CDATA[ABAB14611803DSFBV39DF345F4E17DAB]]></sign>
+  <prepay_id><![CDATA[wx02155756166818b065abc6tr60a5fd0000]]></prepay_id>
+  <trade_type><![CDATA[APP]]></trade_type>
 </xml>
 ```
 
 最终返回JSON
 ```json
 {
-sign: "ABAB14611803DSFBV39DF345F4E17DAB",
-prepayId: "wx02155756166818b065abc6tr60a5fd0000",
-partnerId: "1111111111",
-appId: "wx5232bc0bf666666b",
-packageValue: "Sign=WXPay",
-timeStamp: "1622620676",
-nonceStr: "0yPYJCvl5MdkAbnS"
+  sign: "ABAB14611803DSFBV39DF345F4E17DAB",
+  prepayId: "wx02155756166818b065abc6tr60a5fd0000",
+  partnerId: "1111111111",
+  appId: "wx5232bc0bf666666b",
+  packageValue: "Sign=WXPay",
+  timeStamp: "1622620676",
+  nonceStr: "0yPYJCvl5MdkAbnS"
 }
 ```
 
