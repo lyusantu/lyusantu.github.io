@@ -186,7 +186,9 @@ nonceStr: "0yPYJCvl5MdkAbnS"
 
 IOS真机调用统一下单接口后的页面
 
-![ios]()
+![ios](https://lyusantu.github.io/images/wxpay.png)
+
+到此,预下订单接口已经测试成功,APP在调用接口后可成功拉起微信支付,在用户支付成功后微信会访问我们在预下订单接口内配置的notify_url
 
 ## 结束语
 
