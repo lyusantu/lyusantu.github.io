@@ -7,6 +7,8 @@ date: 2021/06/29
 
 <!-- more -->
 
+原文是我写在notion中的一篇日志，后续可能会与其它安装说明整合为一体，具体参见[CentOS7安装Jenkins](https://www.notion.so/CentOS7-Jenkins-1e50b4c6ccd94117848f60cb0ec31abb)，此文作为单独的安装说明，将不再进行变动。
+
 ## 安装
 
 下载依赖
@@ -125,25 +127,25 @@ firewall-cmd --reload
 
 如果不确定需要那些插件，则选择“安装建议的插件”
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41f9d040-c1f7-436c-a9d8-a5e3201c90f8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41f9d040-c1f7-436c-a9d8-a5e3201c90f8/Untitled.png)
+![13](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F41f9d040-c1f7-436c-a9d8-a5e3201c90f8%2FUntitled.png?table=block&id=02886c97-bd1d-4241-aedc-c04d6533dc4d&spaceId=a5f79601-ae0d-48db-9f4d-80bb7c3d6ea4&width=2300&userId=&cache=v2)
 
 ## 创建第一个管理员用户
 
 根据实际情况填写各项字段
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09579c05-56e8-417b-8cdc-9e9528d12e22/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09579c05-56e8-417b-8cdc-9e9528d12e22/Untitled.png)
+![14](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F09579c05-56e8-417b-8cdc-9e9528d12e22%2FUntitled.png?table=block&id=8292d921-afb9-4a24-a671-898e4961bd86&spaceId=a5f79601-ae0d-48db-9f4d-80bb7c3d6ea4&width=2780&userId=&cache=v2)
 
 ## Jenkins实例配置
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68f11c06-c0c6-4e9a-9114-1bdbf007fbc3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68f11c06-c0c6-4e9a-9114-1bdbf007fbc3/Untitled.png)
+![15](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F68f11c06-c0c6-4e9a-9114-1bdbf007fbc3%2FUntitled.png?table=block&id=3857bf2c-88a0-47da-b20b-d9acfbd7b540&spaceId=a5f79601-ae0d-48db-9f4d-80bb7c3d6ea4&width=2590&userId=&cache=v2)
 
 ## 开始使用Jenkins
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4225b03b-cd4f-4b92-b00d-2cd2fe2d12cd/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4225b03b-cd4f-4b92-b00d-2cd2fe2d12cd/Untitled.png)
+![16](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4225b03b-cd4f-4b92-b00d-2cd2fe2d12cd%2FUntitled.png?table=block&id=230fa187-edf0-4fb7-80cf-f10cb992fdd3&spaceId=a5f79601-ae0d-48db-9f4d-80bb7c3d6ea4&width=2510&userId=&cache=v2)
 
 点击开始使用Jenkins，即可进入Jenkins工作台
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ea2f2d2-aee3-4c27-99ba-1be93386ee8b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ea2f2d2-aee3-4c27-99ba-1be93386ee8b/Untitled.png)
+![17](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2ea2f2d2-aee3-4c27-99ba-1be93386ee8b%2FUntitled.png?table=block&id=dad7aa0a-24da-4dc5-aa15-be01b531149f&spaceId=a5f79601-ae0d-48db-9f4d-80bb7c3d6ea4&width=5120&userId=&cache=v2)
 
 ## 结束语
 
